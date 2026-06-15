@@ -244,3 +244,151 @@ font-size:30px;
 border-radius:50%;
 text-decoration:none;
 }
+/* ========================= */
+/* RESPONSIVIDADE */
+/* ========================= */
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* Tablet */
+@media (max-width: 992px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        gap:40px;
+    }
+
+    .hero-content{
+        max-width:100%;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .benefits{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    header{
+        padding:20px 5%;
+    }
+
+    .products,
+    .reviews,
+    .faq{
+        padding:60px 5%;
+    }
+}
+
+/* Celulares */
+@media (max-width: 768px){
+
+    header{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+        padding:20px;
+    }
+
+    nav{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
+    nav a{
+        margin-left:0;
+    }
+
+    .hero{
+        padding:50px 20px;
+    }
+
+    .hero h1{
+        font-size:36px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .hero-image img{
+        width:100%;
+    }
+
+    .buttons{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .btn-buy,
+    .btn-whatsapp{
+        width:100%;
+        text-align:center;
+    }
+
+    .benefits{
+        grid-template-columns:1fr;
+    }
+
+    .products h2{
+        font-size:32px;
+    }
+
+    .card img{
+        height:220px;
+    }
+
+    .new-price{
+        font-size:24px;
+    }
+
+    .floating-whatsapp{
+        width:55px;
+        height:55px;
+        font-size:26px;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px){
+
+    .logo{
+        font-size:24px;
+    }
+
+    .hero h1{
+        font-size:30px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .products h2{
+        font-size:28px;
+    }
+
+    .card{
+        padding:15px;
+    }
+
+    .card img{
+        height:200px;
+    }
+
+    footer{
+        padding:25px 15px;
+    }
+}
