@@ -392,3 +392,15 @@ img{
         padding:25px 15px;
     }
 }
+.card,
+.review{
+    opacity:0;
+    transform:translateY(30px);
+    transition:0.6s;
+}
+
+.card.show,
+.review.show{
+    opacity:1;
+    transform:translateY(0);
+}
