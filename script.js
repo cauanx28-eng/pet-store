@@ -1,4 +1,4 @@
-const// FAQ
+// FAQ
 const faqQuestions = document.querySelectorAll('.faq-question');
 
 faqQuestions.forEach(item => {
