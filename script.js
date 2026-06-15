@@ -1,3 +1,5 @@
+console.log("JavaScript carregado!");
+
 // FAQ
 const faqQuestions = document.querySelectorAll('.faq-question');
 
