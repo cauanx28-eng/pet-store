@@ -464,3 +464,33 @@ img{
         height:46px;
     }
 }
+.gallery-view{
+    position:relative;
+}
+
+.gallery-btn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:2;
+    width:36px;
+    height:36px;
+    border:none;
+    border-radius:50%;
+    background:rgba(15,23,42,.65);
+    color:white;
+    font-size:28px;
+    line-height:1;
+    cursor:pointer;
+}
+
+.gallery-prev{
+    left:10px;
+}
+
+.gallery-next{
+    right:10px;
+}
+.product-thumbs{
+    display:none;
+}
