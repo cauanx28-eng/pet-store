@@ -44,8 +44,8 @@ if (countdownElement) {
         }
 
         if (hours < 0) {
-            hours = 23;
-            minutes = 59;
+            hours = 21;
+            minutes = 50;
             seconds = 59;
         }
 
