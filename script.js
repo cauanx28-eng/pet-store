@@ -21,8 +21,8 @@ faqQuestions.forEach(item => {
 });
 
 // CONTADOR DE OFERTA
-let hours = 23;
-let minutes = 59;
+let hours = 21;
+let minutes = 50;
 let seconds = 59;
 
 const countdownElement = document.getElementById('countdown');
